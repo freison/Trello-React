@@ -1,5 +1,5 @@
 import React from "react";
-import List from "./Components/List";
+import List from "./Components/List/List";
 
 function App() {
     return (
