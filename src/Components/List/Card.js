@@ -4,7 +4,7 @@ import { Paper } from "@material-ui/core";
 export default function Card() {
     return (
         <div>
-            <Paper></Paper>
+            <Paper>Making ...</Paper>
         </div>
     );
 }
