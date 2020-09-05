@@ -16,7 +16,7 @@ githubPush(){
 
 github $1
 
-if [$2]
+if [$2 = true]
 then
 	githubPush
 fi
