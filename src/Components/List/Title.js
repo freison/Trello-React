@@ -37,6 +37,7 @@ export default function Title() {
                             className: classes.input,
                         }}
                         fullWidth
+                        onBlur={() => setOpen(!open)}
                     />
                 </div>
             ) : (

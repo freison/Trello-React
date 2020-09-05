@@ -18,6 +18,7 @@ export default function List() {
             <Paper className={classes.root}>
                 <CssBaseline />
                 <Title />
+                <Paper></Paper>
             </Paper>
         </div>
     );
