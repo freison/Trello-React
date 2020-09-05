@@ -5,8 +5,12 @@ github(){
 	git add .;
 	git status;
 	git commit -m $1;
-	git push;
-	git status;
+
+	if $2;
+	then
+		git push;
+		git status;
+	fi
 }
 
-github $1
+github $1 $2
